@@ -3,7 +3,11 @@ import ReactDOM from "react-dom/client";
 import App  from "./App";
 
 ReactDOM.createRoot(document.querySelector("#root")).render(
-    <React.StrictMode>
+    // <React.StrictMode>
+    //     < App/>
+    // </React.StrictMode>
+    <>
         < App/>
-    </React.StrictMode>
-)
+    </>
+            
+    )
